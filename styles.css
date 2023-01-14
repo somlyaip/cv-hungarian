@@ -1,5 +1,26 @@
+#a4page {
+    width: 210mm;
+    height: 297mm;
+    background-color: lightgray;
+}
+
+header {
+    height: 50mm;
+    background-color: green;
+}
+
+#bars {
+    display: flex;
+}
+
+aside {
+    width: 50mm;
+    background-color: yellow;
+}
+
 #jobs-timeline {
     display: flex;
+    margin-left: 1em;
 }
 
 .job-timeline-side {
@@ -8,7 +29,7 @@
 }
 
 .job-timeline-side.left {
-    border-right: 3px gray groove;
+    /*border-right: 3px gray groove;*/
 }
 
 .job-timeline-side.right {
@@ -102,4 +123,9 @@ section.blank {
 .blank.interval-2014-2012 {
     /*margin-top: 2.6em;*/
     height: 8.5em;
+}
+
+.no-bullets {
+    list-style: none;
+    padding-left: 0;
 }
