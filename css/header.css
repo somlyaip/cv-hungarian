@@ -1,0 +1,53 @@
+header {
+    height: 41mm;
+    background-color: rgba(250, 225, 32, .9);
+}
+
+#profile-picture-area {
+    width: 277px;
+}
+
+#profile-picture-container {
+    flex-grow: 1;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 1mm;
+}
+
+#contacts-container {
+    background-color: white;
+    width: 517px;
+    height: 150px;
+}
+
+#contacts {
+    padding-left: 1em;
+}
+
+.lastname {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#name {
+    font-size: 2em;
+}
+
+#contacts ul {
+    list-style: none;
+    padding-left: 0;
+    margin-right: 3em;
+    font-size: 10pt;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-3th-party-service {
+    height: .8em;
+}
