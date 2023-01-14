@@ -28,6 +28,11 @@ p, span, strong, em, li {
 #a4page {
     width: 210mm;
     height: 297mm;
-    border: 2px solid lightgray;
     margin: auto;
+}
+
+@media (min-height: 297mm) {
+    #a4page {
+        border: 2px solid lightgray;
+    }
 }
