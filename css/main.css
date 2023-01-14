@@ -8,7 +8,6 @@ main {
 }
 
 #jobs-timeline {
-    /*display: flex;*/
     margin-left: 1em;
 }
 
@@ -75,7 +74,6 @@ section.blank {
 }
 
 .blank.interval-2023-2019 {
-    /*margin-top: 2.6em;*/
     height: 6em;
 }
 
