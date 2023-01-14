@@ -1,3 +1,7 @@
+:root {
+    --border-color: gray;
+}
+
 main {
     width: 140mm;
     background-color: rgba(99, 99, 99, 0.1);
@@ -13,13 +17,13 @@ main {
 }
 
 .era {
-    border-left: 1px solid black;
+    border-left: 1px solid var(--border-color);
     margin-bottom: 1em;
 }
 
 .partial-border {
     width: 60%;
-    border-top: 1px solid black;
+    border-top: 1px solid var(--border-color);
 }
 
 div.company * {
@@ -35,7 +39,7 @@ div.company * {
 }
 
 .vertical-line {
-    border-left: 1px solid gray;
+    border-left: 1px solid var(--border-color);
     height: calc(100% - 2em);
     margin-left: 1em;
 }
@@ -53,7 +57,7 @@ div.company * {
 }
 
 .vertical-line.dotted {
-    border-left: 2px dotted gray;
+    border-left: 2px dotted var(--border-color);
     height: calc(100% - 2em);
     margin-left: 1em;
 }
@@ -95,11 +99,11 @@ section.blank {
 }
 
 .parallel-jobs-left {
-    width: 40%;
+    width: 50%;
 }
 
 .parallel-jobs-right {
-    width: 60%;
+    width: 50%;
     margin-left: .4em;
 }
 
