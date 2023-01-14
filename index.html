@@ -10,17 +10,124 @@
 
 <div id="a4page">
 
-    <header></header>
+    <header class="flex">
+        <div class="flex" id="profile-picture-area">
+            <div id="profile-picture-container">
+                <img src="profile-picture-150x150.png" title="Somlyai Pál" alt="Somlyai Pál arcképe">
+            </div>
+        </div>
 
-    <div id="bars">
-        <aside></aside>
+        <div id="contacts-container">
+            <div id="contacts">
+                <p id="name"><span class="lastname">SOMLYAI</span> PÁL</p>
+                <p><strong>VEZETŐ JAVA FEJLESZTŐ</strong></p>
+                <div class="flex">
+                    <ul>
+                        <li>+36 12 345 6789</li>
+                        <li>unknown@gmail.com</li>
+                        <li>HU 1000, Lorem tér 9.</li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/pal-somlyai/">
+                                <img src="github-mark.svg" alt="GitHub Invertocat logo" class="logo-3th-party-service">
+                                <strong>pal-somlyai</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/somlyaip">
+                                <img src="linked-in-logo-15x13.png" alt="LinkedIn logo" class="logo-3th-party-service">
+                                <strong>somlyaip</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="flex">
+        <aside>
+            <section>
+                <h2>Összegzés</h2>
+                <p>
+                    10 éve dolgozom programozóként. Ide biztosan fogok írni 3-4 sort is, szóval kell a placeholder bőven.
+                    Sok mondatban fogom sorolni, hogy mi az ami jól megy és továbbra is folytatni szeretném,
+                    valamint mi az, amint változtatnék. Összegeznem kell a technológiai salátát, amivel eddig foglalkoztam.
+                    Arra tippelek, hogy ennyi hely elég lesz.
+                </p>
+            </section>
+
+            <section id="education">
+                <h2>Tanulmányok</h2>
+                <p>
+                    <strong>Dunaújvárosi Főiskola</strong>
+                    <span>2009 - 2013</span>
+                    <span>Mérnökinformatikus BSc</span>
+                </p>
+                <p>
+                    <strong>Gépészeti és Számítástechnikai Szakközépiskola</strong>
+                    <span>Békéscsaba</span>
+                    <span>2005 - 2009</span>
+                    <span>Informatikai szakmacsoport</span>
+                </p>
+            </section>
+
+            <section id="skills">
+                <h2>Releváns készségek</h2>
+
+                <section>
+                    <h3>Senior</h3>
+                    <span>Több éves szakmai tapasztalat, magabiztos elméleti és gyakorlati tudás</span>
+                    <p>
+                        <span class="skill soft">vezetői&nbsp;készségek</span>
+                        <span class="skill soft">elemzés</span>
+                        <span class="skill soft">sratégia&nbsp;alkotás</span>
+                        <span class="skill soft">csapatmunka</span>
+                        <span class="skill soft">motiváció&nbsp;felismerése</span>
+                    </p>
+                    <p>
+                        <span class="skill tech">Java&nbsp;11/17</span>
+                        <span class="skill tech">Spring&nbsp;Boot</span>
+                        <span class="skill tech"></span>
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Medior</h3>
+                    <span>Gyakorlati és elméleti tudás, viszont még nem magabiztos</span>
+                    <p>
+                        <span class="skill tech">Hibernate?</span>
+                        <span class="skill tech">Spring Cloud?</span>
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Junior</h3>
+                    <span>Belépő szint, alapvető ismeretek, gyakorlat</span>
+                    <p>
+                        <span class="skill tech">HTML</span>
+                        <span class="skill tech">CSS</span>
+                        <span class="skill tech">JavaScript</span>
+                        <span class="skill tech"></span>
+                    </p>
+                </section>
+
+            </section>
+
+            <section>
+                <h2>Hobbik</h2>
+                <p>Olvasás, Squash, PlayStation</p>
+            </section>
+        </aside>
 
         <main>
             <h2>Munkatapasztalat</h2>
 
             <div id="jobs-timeline">
 
-                <div class="job-timeline-side left">
+                <div class="job-timeline-side">
                     <div class="era">
                         <div class="company">
                             <strong>Hibridlevél Kft.</strong>
@@ -40,7 +147,7 @@
                                     <strong>Vezető fejlesztő</strong>
                                     <p>
                                         Csomagfeladási rendszer backend komponensének fejlesztését vezettem,
-                                        szorosan együttműködve több alvállakozóval.
+                                        szorosan együttműködve több alvállakozóval és a megrendelővel.
                                         (Java 11, Spring Boot, Spring Cloud, REST, MSSQL, Docker)
                                     </p>
                                     <p>
@@ -53,34 +160,104 @@
                                 </div>
                             </section>
 
-                            <section>
-                                <div class="time-interval">
-                                    <span>2019</span>
-                                    <div class="vertical-line"></div>
-                                </div>
+                            <div class="flex">
+                                <section class="parallel-jobs-left">
+                                    <div class="time-interval">
+                                        <span>2019</span>
+                                        <div class="vertical-line"></div>
+                                    </div>
 
-                                <div>
-                                    <strong>Szoftverfejlesztő</strong>
-                                    <p>Korábban elkezdett REST API-k fejlesztését folytattuk.</p>
-                                </div>
-                            </section>
+                                    <div>
+                                        <strong>Szoftverfejlesztő</strong>
+                                        <p>
+                                            Levélfeladást lehetővé tevő, desktop, virtuális nyomtató alkalmazás (v2.0) és
+                                            backendjének fejlesztése
+                                            (C# WPF, Spring Boot)
+                                        </p>
+                                        <p>Korábban elkezdett REST API-k továbbfejlesztése (PHP, Symfony)</p>
+                                    </div>
+                                </section>
 
-                            <section>
-                                <div class="time-interval">
-                                    <span>2018</span>
-                                    <div class="vertical-line"></div>
-                                </div>
+                                <div class="era no-bottom-margin parallel-jobs-right">
+                                    <div class="company">
+                                        <strong>EPDB Nyomtatási Központ Zrt.</strong>
+                                        <em>Budapest</em>
+                                    </div>
 
-                                <div>
-                                    <strong>Vezető fejlesztő</strong>
-                                    <p>
-                                        Kezdetben SOAP, majd REST API-k tervezését és fejlesztését vezettem PHP, majd
-                                        Symfony alapokon.
-                                        ORM (Doctrine), automatizált tesztelés, CI/CD pipeline, Docker, Swarm, ELK, RabbitMQ,
-                                        DevOps
-                                    </p>
+                                    <div class="half-border"></div>
+
+                                    <div class="jobs">
+                                        <section>
+                                            <div class="time-interval">
+                                                <span>2019</span>
+                                                <div class="vertical-line"></div>
+                                                <span>2018</span>
+                                            </div>
+
+                                            <div>
+                                                <strong>Vezető fejlesztő</strong>
+                                                <p>
+                                                    Nyomdai raktárkészlet nyilvántartó webes rendszer tervezését és fejlesztését
+                                                    vezettem Java, Spring Boot és Angular alapokon. Emellett Inspire workflow futtató
+                                                    desktop alkalmazást készítettünk JavaFX és SpringBoot technológiákkal.
+                                                </p>
+                                            </div>
+                                        </section>
+                                    </div>
+
+                                    <div class="half-border"></div>
                                 </div>
-                            </section>
+                            </div>
+
+                            <div class="flex">
+                                <section class="parallel-jobs-left">
+                                    <div class="time-interval">
+                                        <span>2018</span>
+                                        <div class="vertical-line"></div>
+                                    </div>
+
+                                    <div>
+                                        <strong>Vezető fejlesztő</strong>
+                                        <p>
+                                            Kezdetben SOAP, később REST API-k tervezését és fejlesztését vezettem PHP, majd
+                                            Symfony alapokon.
+                                            (Doctrine ORM, automatizált tesztelés, CI/CD pipeline, RabbitMQ, Docker, Swarm, ELK,
+                                            DevOps, Agile/Scrum)
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <div class="era due parallel-jobs-right">
+                                    <div class="company">
+                                        <strong>Dunaújvárosi Egyetem</strong>
+                                        <em>Dunaújváros</em>
+                                    </div>
+
+                                    <div class="half-border"></div>
+
+                                    <div class="jobs">
+                                        <section>
+                                            <div class="time-interval">
+                                                <span>2016</span>
+                                                <span>jún.</span>
+                                                <div class="vertical-line due"></div>
+                                                <span>2014</span>
+                                                <span>szept.</span>
+                                            </div>
+
+                                            <div>
+                                                <strong>Óraadó oktató</strong>
+                                                <ul class="no-bullets">
+                                                    <li>Java - saját fejlesztésű tananyaggal: Bevezetés a programozásba, Programozás I.</li>
+                                                    <li>PHP: Webprogramozás</li>
+                                                </ul>
+                                            </div>
+                                        </section>
+                                    </div>
+
+                                    <div class="half-border"></div>
+                                </div>
+                            </div>
 
                             <section>
                                 <div class="time-interval">
@@ -133,90 +310,6 @@
 
                         <div class="half-border"></div>
                     </div>
-                </div>
-
-                <div class="job-timeline-side right">
-                    <section class="blank interval-2023-2019">
-                        <div class="time-interval">
-                            <span>2023</span>
-                            <div class="vertical-line dotted"></div>
-                        </div>
-                    </section>
-
-                    <div class="era no-bottom-margin">
-                        <div class="company">
-                            <strong>EPDB Nyomtatási Központ Zrt.</strong>
-                            <em>Budapest</em>
-                        </div>
-
-                        <div class="half-border"></div>
-
-                        <div class="jobs">
-                            <section>
-                                <div class="time-interval">
-                                    <span>2019</span>
-                                    <div class="vertical-line"></div>
-                                    <span>2018</span>
-                                </div>
-
-                                <div>
-                                    <strong>Vezető fejlesztő</strong>
-                                    <p>
-                                        Nyomdai raktárkészlet nyilvántartó webes rendszer tervezését és fejlesztését
-                                        vezettem Java, Spring Boot és Angular alapokon. Emellett Inspire workflow futtató
-                                        desktop alkalmazást készítettünk JavaFX és SpringBoot technológiákkal.
-                                    </p>
-                                </div>
-                            </section>
-                        </div>
-
-                        <div class="half-border"></div>
-                    </div>
-
-                    <section class="blank interval-2018-2016">
-                        <div class="time-interval">
-                            <div class="vertical-line dotted full-height"></div>
-                        </div>
-                    </section>
-
-                    <div class="era">
-                        <div class="company">
-                            <strong>Dunaújvárosi Egyetem</strong>
-                            <em>Dunaújváros</em>
-                        </div>
-
-                        <div class="half-border"></div>
-
-                        <div class="jobs">
-                            <section>
-                                <div class="time-interval">
-                                    <span>2016</span>
-                                    <span>jún.</span>
-                                    <div class="vertical-line due"></div>
-                                    <span>2014</span>
-                                    <span>szept.</span>
-                                </div>
-
-                                <div>
-                                    <strong>Óraadó oktató</strong>
-                                    <ul class="no-bullets">
-                                        <li>Java - saját fejlesztésű tananyaggal: Bevezetés a programozásba, Programozás I.</li>
-                                        <li>PHP: Webprogramozás</li>
-                                    </ul>
-                                </div>
-                            </section>
-                        </div>
-
-                        <div class="half-border"></div>
-                    </div>
-
-                    <section class="blank interval-2014-2012">
-                        <div class="time-interval">
-                            <div class="vertical-line dotted"></div>
-                            <span>2012</span>
-                            <span>jún.</span>
-                        </div>
-                    </section>
                 </div>
             </div>
         </main>

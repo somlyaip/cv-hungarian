@@ -1,21 +1,120 @@
+body {
+    font-family: Arial, serif;
+    margin: 0;
+}
+
+p {
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+h2 {
+    border-left: .3em solid black;
+    padding-left: .5em;
+}
+
 #a4page {
     width: 210mm;
     height: 297mm;
-    background-color: lightgray;
+    border: 2px solid lightgray;
 }
+
+p, span, strong, em {
+    /*font-size: 10pt;*/
+    font-size: 10pt;
+}
+
+/* HEADER */
 
 header {
-    height: 50mm;
-    background-color: green;
+    height: 41mm;
+    background-color: rgba(250, 225, 32, .9);
 }
 
-#bars {
-    display: flex;
+#profile-picture-area {
+    width: 277px;
 }
+
+#profile-picture-container {
+    flex-grow: 1;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 1mm;
+}
+
+#contacts-container {
+    background-color: white;
+    width: 516px;
+    height: 150px;
+}
+
+#contacts {
+    padding-left: 1em;
+}
+
+.lastname {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#name {
+    font-size: 2em;
+}
+
+#contacts ul {
+    list-style: none;
+    padding-left: 0;
+    margin-right: 3em;
+    font-size: 10pt;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-3th-party-service {
+    height: .8em;
+}
+
+/* ASIDE */
 
 aside {
-    width: 50mm;
-    background-color: yellow;
+    width: 70mm;
+    background-color: white;
+    padding-left: 5mm;
+}
+
+#education p * {
+    display: block;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.skill {
+    padding: 2px;
+    line-height: 1.7em;
+}
+
+.skill.soft {
+    background-color: dimgray;
+    color: whitesmoke;
+}
+.skill.tech {
+    background-color: rgba(250, 225, 32, .9);
+    color: rgba(0, 0, 0, .8);
+}
+
+/* MAIN*/
+
+main {
+    width: 140mm;
+    background-color: rgba(99, 99, 99, 0.1);
 }
 
 #jobs-timeline {
@@ -23,22 +122,8 @@ aside {
     margin-left: 1em;
 }
 
-.job-timeline-side {
-    /*border: 1px solid black;*/
-    width: 80mm;
-}
-
-.job-timeline-side.left {
-    /*border-right: 3px gray groove;*/
-}
-
-.job-timeline-side.right {
-    padding-left: .5em;
-}
-
 .era {
     border-left: 1px solid black;
-    /*padding-left: .1em;*/
     margin-bottom: 1em;
 }
 
@@ -128,4 +213,30 @@ section.blank {
 .no-bullets {
     list-style: none;
     padding-left: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.parallel-jobs-left {
+    width: 40%;
+}
+
+.parallel-jobs-right {
+    width: 60%;
+    margin-left: .2em;
+}
+
+.era.due {
+    margin-top: 1em;
+}
+
+/* FOOTER */
+
+footer {
+    height: 20mm;
+    width: 100%;
+    background-color: #555555;
+    color: whitesmoke;
 }
