@@ -1,0 +1,105 @@
+#jobs-timeline {
+    display: flex;
+}
+
+.job-timeline-side {
+    /*border: 1px solid black;*/
+    width: 80mm;
+}
+
+.job-timeline-side.left {
+    border-right: 3px gray groove;
+}
+
+.job-timeline-side.right {
+    padding-left: .5em;
+}
+
+.era {
+    border-left: 1px solid black;
+    /*padding-left: .1em;*/
+    margin-bottom: 1em;
+}
+
+.half-border {
+    width: 60%;
+    border-top: 1px solid black;
+}
+
+div.company * {
+    display: block;
+    margin-left: .3em;
+}
+
+.location {
+
+}
+
+.job-timeline-side section {
+    display: flex;
+}
+
+.time-interval * {
+    display: block;
+    text-align: center;
+    margin-right: .5em;
+}
+
+.vertical-line {
+    border-left: 1px solid gray;
+    height: calc(100% - 2em);
+    margin-left: 1em;
+}
+
+.vertical-line.last {
+    height: calc(100% - 4.5em);
+}
+
+.vertical-line.hibridlevel-junior {
+    height: calc(100% - 3.5em);
+}
+
+.vertical-line.milpress {
+    height: calc(100% - 4.5em);
+}
+
+.vertical-line.due {
+    height: calc(100% - 4.5em);
+}
+
+.vertical-line.dotted {
+    border-left: 2px dotted gray;
+    height: calc(100% - 2em);
+    margin-left: 1em;
+}
+
+.vertical-line.dotted.full-height {
+    height: 80%;
+}
+
+.jobs {
+    padding: 0.5em;
+}
+
+section.blank {
+    margin-left: .3em;
+}
+
+.blank.interval-2023-2019 {
+    /*margin-top: 2.6em;*/
+    height: 6em;
+}
+
+.blank.interval-2018-2016 {
+    margin: .3em 0 .3em .6em;
+    height: 1em;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+.blank.interval-2014-2012 {
+    /*margin-top: 2.6em;*/
+    height: 8.5em;
+}
