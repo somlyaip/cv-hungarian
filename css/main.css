@@ -18,7 +18,7 @@ main {
 
 .era {
     border-left: 1px solid var(--border-color);
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 
 .partial-border {
