@@ -1,5 +1,12 @@
+:root {
+    --border-color: gray;
+    --highlight-color: rgba(250, 225, 32, .9);
+    --normal-text-color: black;
+}
+
 body {
     font-family: Arial, serif;
+    color: var(--normal-text-color);
     margin: 0;
 }
 
@@ -9,7 +16,7 @@ p {
 }
 
 h2 {
-    border-left: .3em solid black;
+    border-left: .3em solid var(--normal-text-color);
     margin-top: .5em;
     margin-bottom: .7em;
     padding-left: .5em;
@@ -19,7 +26,6 @@ h2 {
 p, span, strong, em, li {
     font-size: 10pt;
 }
-
 
 .flex {
     display: flex;

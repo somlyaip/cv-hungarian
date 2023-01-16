@@ -1,6 +1,6 @@
 header {
     height: 41mm;
-    background-color: rgba(250, 225, 32, .9);
+    background-color: var(--highlight-color);
 }
 
 #profile-picture-area {
@@ -45,7 +45,7 @@ header {
 
 #contacts a {
     text-decoration: none;
-    color: black;
+    color: var(--normal-text-color);
 }
 
 .logo-3th-party-service {
