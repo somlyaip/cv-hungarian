@@ -37,7 +37,7 @@ p, span, strong, em, li {
     margin: auto;
 }
 
-@media (min-height: 297mm) {
+@media (min-height: 298mm) {
     #a4page {
         border: 2px solid lightgray;
     }
