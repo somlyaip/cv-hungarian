@@ -29,6 +29,7 @@ h3 {
 .skill {
     padding: 2px;
     line-height: 1.7em;
+    border-radius: 3px;
 }
 
 .skill.soft {
