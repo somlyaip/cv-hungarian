@@ -1,6 +1,6 @@
 :root {
     --border-color: gray;
-    --highlight-color: rgba(250, 225, 32, .9);
+    --highlight-color: hsla(51, 100%, 65%, 1);
     --normal-text-color: black;
 }
 
