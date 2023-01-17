@@ -18,6 +18,14 @@ h3 {
     font-size: 1.1em;
 }
 
+.tech-skill-group p:first-child {
+    margin-top: 1em;
+}
+
+.tech-skill-group p:first-child strong {
+    font-size: 1.15em;
+}
+
 .skill {
     padding: 2px;
     line-height: 1.7em;
@@ -31,6 +39,10 @@ h3 {
 .skill.tech {
     background-color: var(--highlight-color);
     color: rgba(0, 0, 0, .8);
+}
+
+.skill.methodology {
+    background-color: hsl(0, 0%, 87%);
 }
 
 .half-width {
