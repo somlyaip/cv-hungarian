@@ -1,7 +1,7 @@
 :root {
     --border-color: gray;
-    --highlight-color: hsla(51, 100%, 65%, 1);
-    --normal-text-color: black;
+    --highlight-color: hsl(51, 100%, 65%);
+    --normal-text-color: hsl(0, 0%, 10%);
 }
 
 body {
