@@ -40,7 +40,7 @@ header {
     list-style: none;
     padding-left: 0;
     margin-left: 0; /* for Prince (PDF export tool) */
-    margin-right: 8em;
+    margin-right: 6em;
     font-size: 10pt;
 }
 
