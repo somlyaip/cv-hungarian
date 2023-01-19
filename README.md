@@ -1,6 +1,6 @@
 # Hungarian CV
 
-My Hungarian CV as a webpage. Of course, without private contact data.
+My Hungarian CV as a [webpage](https://somlyaip.github.io/cv-hungarian/). Of course, without private contact data.
 
 ## Producing PDF version
 1. Download [princexml](https://www.princexml.com/download/) and install it
